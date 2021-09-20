@@ -28,7 +28,8 @@
     * ### Instalacion de openpyxl:
         Para instalar el paquete **openpyxl** necesitamos tener **Python3** previamente instalado en nuestro sistema.<br>
         * #### Paso 1:
-            Abrir nuestra terminal, CMD o Windows Powershell.
+            Abrir nuestra terminal, CMD o Windows Powershell.<br>
+            ![Imagen de terminal](images\terminal.png)
         * #### Paso 2:
             Ya dentro de nuestra terminal colocar la siguiente línea de comando: <br>
             ```tcl
@@ -36,8 +37,11 @@
             ```
             Y esperamos que se complete la instalación, para comprobar si la instalación fue realizada correctamente insertamos la siguiente línea de comando en nuestra terminal:<br>
             ```tcl
-            python -m show openpyxl 
+            python -c "import opeyxl"
+            >> echo $? 
             ```
+            ![Imagen provando si openpyxl esta presente](images\Terminal-comprobar.png)
+            Esto devolvera '**TRUE**' si la libreria esta instalada y '**FALSE**' si no existe
 * ## Creacion de nuestro CRUD:
     * ### Prerequisitos:
         * Antes de empezar a hacer nuestro código necesitamos crear una archivo **Excel** al cual le pondremos el nombrede "__Base crud__" luego de haber creado nuestro documento procederemos a abrirlo y cambiamos el nombre de la primera página por"__Datos    del crud__".
@@ -93,6 +97,17 @@
             ```
             El parámetro ruta como se mencionó solo puede ser una string ya que  contiene  caracteres alfanuméricos y el identificador va a ser un entero, ya que este es el número de identificación del proceso.
     * ### Funcion filtrar
+    En el siguiente texto veremos la explicacion de la funcion filtro, la cual usaremos para filtrar datos de nuestros inputs
+
+    ```python
+        def filtrar(info:dict, filtro:str):
+        aux={}
+
+        for i in info:
+        if info[i]['estado']==filtro:
+        aux.setdefault(i, info[i])
+        return aux
+    ```
 
 
 
