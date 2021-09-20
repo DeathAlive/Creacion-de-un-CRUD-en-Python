@@ -1,4 +1,9 @@
 # Creacion de un CRUD basico en Python.
+* ## Indice
+    * [Introduccion](https://github.com/DeathAlive/Creacion-de-un-CRUD-en-Python/blob/main/README.md#introduccion)
+    * [¿Que es un CRUD?](https://github.com/DeathAlive/Creacion-de-un-CRUD-en-Python/blob/main/README.md#que-es-un-crud)
+    * [¿Que es openpyxl?](https://github.com/DeathAlive/Creacion-de-un-CRUD-en-Python/blob/main/README.md#que-es-openpyxl)
+    * [Creacion de nuestro CRUD](https://github.com/DeathAlive/Creacion-de-un-CRUD-en-Python/blob/main/README.md#creacion-de-nuestro-crud)
 * ##  Introduccion
     En este repositorio veremos la creación de un **CRUD** sencillo (pero bastante enrevesado) en el lenguaje de programación Python con el uso del directorio [openpyxl](https://openpyxl.readthedocs.io/en/stable/), pero primero que nada veamos los requisitos mínimos para crear nuestra **CRUD**.
     *  ### Requisitos mìnimos: 
@@ -81,8 +86,6 @@
                 return
             ```
             El parámetro ruta como se mencionó solo puede ser una string ya que  contiene  caracteres alfanuméricos y el identificador va a ser un entero, ya que este es el número de identificación del proceso.
-
-
 
 
 
