@@ -1,6 +1,6 @@
 # Creacion de un CRUD basico en Python.
 * ##  Introduccion
-    En este repositorio veremo la creacion de un **CRUD** sencillo (pero bastante enrevesado) en el lenguaje de programacion Python con el uso de el directorio [openpyxl](https://openpyxl.readthedocs.io/en/stable/), pero primero que nada veamos los requisitos minimos para crear nuestra **CRUD**.
+    En este repositorio veremos la creacion de un **CRUD** sencillo (pero bastante enrevesado) en el lenguaje de programacion Python con el uso de el directorio [openpyxl](https://openpyxl.readthedocs.io/en/stable/), pero primero que nada veamos los requisitos minimos para crear nuestra **CRUD**.
     *  ### Requisitos minimos:
 
     Requisitos minimos | Descripcion
