@@ -1,0 +1,20 @@
+def filtrar(info:dict, filtro:str): 
+    aux={}
+
+    for i in info:
+        if info[i]['estado']==filtro:
+            aux.setdefault(i, info[i])
+    return aux
+________________________________________
+Linea 1: se define la funcion filtrar la cual va a tener dos parametros los cuales son info que es un diccionario y filtro que es una string.
+
+Linea 2: se crea un diccionario con valores vacios
+
+Linea 4: por cada valor en el diccionario info
+
+Linea 5: si info valor estado = filtro
+
+Linea 6: se saca los valores por defecto de i y de info info
+
+Linea 7: se devuelve aux
+
