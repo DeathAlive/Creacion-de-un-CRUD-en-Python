@@ -29,7 +29,6 @@
         Para instalar el paquete **openpyxl** necesitamos tener **Python3** previamente instalado en nuestro sistema.<br>
         * #### Paso 1:
             Abrir nuestra terminal, CMD o Windows Powershell.<br>
-            ![Imagen de terminal](images\terminal.png)
         * #### Paso 2:
             Ya dentro de nuestra terminal colocar la siguiente línea de comando: <br>
             ```tcl
@@ -40,7 +39,6 @@
             python -c "import opeyxl"
             >> echo $? 
             ```
-            ![Imagen provando si openpyxl esta presente](images\Terminal-comprobar.png)
             Esto devolvera '**TRUE**' si la libreria esta instalada y '**FALSE**' si no existe
 * ## Creacion de nuestro CRUD:
     * ### Prerequisitos:
