@@ -29,6 +29,7 @@
         Para instalar el paquete **openpyxl** necesitamos tener **Python3** previamente instalado en nuestro sistema.<br>
         * #### Paso 1:
             Abrir nuestra terminal, CMD o Windows Powershell.<br>
+            ![Imagen de terminal](https://github.com/DeathAlive/Creacion-de-un-CRUD-en-Python/blob/main/img/Terminal.png)
         * #### Paso 2:
             Ya dentro de nuestra terminal colocar la siguiente línea de comando: <br>
             ```tcl
@@ -40,6 +41,7 @@
             >> echo $? 
             ```
             Esto devolvera '**TRUE**' si la libreria esta instalada y '**FALSE**' si no existe
+            ![Imagen de prueba](https://github.com/DeathAlive/Creacion-de-un-CRUD-en-Python/blob/main/img/Terminal%20comprobar.png)
 * ## Creacion de nuestro CRUD:
     * ### Prerequisitos:
         * Antes de empezar a hacer nuestro código necesitamos crear una archivo **Excel** al cual le pondremos el nombrede "__Base crud__" luego de haber creado nuestro documento procederemos a abrirlo y cambiamos el nombre de la primera página por"__Datos    del crud__".
